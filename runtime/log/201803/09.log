@@ -1,0 +1,1522 @@
+---------------------------------------------------------------
+[ 2018-03-09T22:15:17+08:00 ] 127.0.0.1 GET /
+[ error ] [8]未定义变量: section1_end
+---------------------------------------------------------------
+[ 2018-03-09T22:21:42+08:00 ] 127.0.0.1 GET /
+[ error ] [8]未定义变量: a
+---------------------------------------------------------------
+[ 2018-03-09T22:21:44+08:00 ] 127.0.0.1 GET /
+[ error ] [8]未定义变量: a
+---------------------------------------------------------------
+[ 2018-03-09T22:22:21+08:00 ] 127.0.0.1 GET /
+[ error ] [8]未定义变量: d
+---------------------------------------------------------------
+[ 2018-03-09T23:20:37+08:00 ] 127.0.0.1 GET /
+[ error ] [4]语法错误: unexpected 'view' (T_STRING)
+---------------------------------------------------------------
+[ 2018-03-09T23:23:26+08:00 ] 127.0.0.1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015001s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `monday` [ RunTime:0.025001s ]
+[ sql ] [ SQL ] SELECT * FROM `monday` LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-09T23:26:15+08:00 ] 127.0.0.1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003001s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `monday` [ RunTime:0.027001s ]
+[ sql ] [ SQL ] SELECT * FROM `monday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuesday` [ RunTime:0.026002s ]
+[ sql ] [ SQL ] SELECT * FROM `tuesday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wednesday` [ RunTime:0.021001s ]
+[ sql ] [ SQL ] SELECT * FROM `wednesday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `thursday` [ RunTime:0.025001s ]
+[ sql ] [ SQL ] SELECT * FROM `thursday` LIMIT 1 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `friday` [ RunTime:0.023001s ]
+[ sql ] [ SQL ] SELECT * FROM `friday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `saturday` [ RunTime:0.022001s ]
+[ sql ] [ SQL ] SELECT * FROM `saturday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunday` [ RunTime:0.023002s ]
+[ sql ] [ SQL ] SELECT * FROM `sunday` LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-09T23:26:22+08:00 ] 127.0.0.1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `monday` [ RunTime:0.022001s ]
+[ sql ] [ SQL ] SELECT * FROM `monday` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuesday` [ RunTime:0.021001s ]
+[ sql ] [ SQL ] SELECT * FROM `tuesday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wednesday` [ RunTime:0.023002s ]
+[ sql ] [ SQL ] SELECT * FROM `wednesday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `thursday` [ RunTime:0.024001s ]
+[ sql ] [ SQL ] SELECT * FROM `thursday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `friday` [ RunTime:0.023001s ]
+[ sql ] [ SQL ] SELECT * FROM `friday` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `saturday` [ RunTime:0.025002s ]
+[ sql ] [ SQL ] SELECT * FROM `saturday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunday` [ RunTime:0.034002s ]
+[ sql ] [ SQL ] SELECT * FROM `sunday` LIMIT 1 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-09T23:32:04+08:00 ] 127.0.0.1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `monday` [ RunTime:0.025002s ]
+[ sql ] [ SQL ] SELECT * FROM `monday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuesday` [ RunTime:0.024001s ]
+[ sql ] [ SQL ] SELECT * FROM `tuesday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wednesday` [ RunTime:0.023002s ]
+[ sql ] [ SQL ] SELECT * FROM `wednesday` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `thursday` [ RunTime:0.024001s ]
+[ sql ] [ SQL ] SELECT * FROM `thursday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `friday` [ RunTime:0.025002s ]
+[ sql ] [ SQL ] SELECT * FROM `friday` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `saturday` [ RunTime:0.024001s ]
+[ sql ] [ SQL ] SELECT * FROM `saturday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunday` [ RunTime:0.025002s ]
+[ sql ] [ SQL ] SELECT * FROM `sunday` LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-09T23:32:05+08:00 ] 127.0.0.1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004001s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `monday` [ RunTime:0.030001s ]
+[ sql ] [ SQL ] SELECT * FROM `monday` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuesday` [ RunTime:0.026002s ]
+[ sql ] [ SQL ] SELECT * FROM `tuesday` LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wednesday` [ RunTime:0.029002s ]
+[ sql ] [ SQL ] SELECT * FROM `wednesday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `thursday` [ RunTime:0.029002s ]
+[ sql ] [ SQL ] SELECT * FROM `thursday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `friday` [ RunTime:0.030001s ]
+[ sql ] [ SQL ] SELECT * FROM `friday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `saturday` [ RunTime:0.028001s ]
+[ sql ] [ SQL ] SELECT * FROM `saturday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunday` [ RunTime:0.031002s ]
+[ sql ] [ SQL ] SELECT * FROM `sunday` LIMIT 1 [ RunTime:0.003000s ]
+---------------------------------------------------------------
+[ 2018-03-09T23:32:08+08:00 ] 127.0.0.1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `monday` [ RunTime:0.046003s ]
+[ sql ] [ SQL ] SELECT * FROM `monday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuesday` [ RunTime:0.043002s ]
+[ sql ] [ SQL ] SELECT * FROM `tuesday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wednesday` [ RunTime:0.037002s ]
+[ sql ] [ SQL ] SELECT * FROM `wednesday` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `thursday` [ RunTime:0.035002s ]
+[ sql ] [ SQL ] SELECT * FROM `thursday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `friday` [ RunTime:0.032002s ]
+[ sql ] [ SQL ] SELECT * FROM `friday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `saturday` [ RunTime:0.031002s ]
+[ sql ] [ SQL ] SELECT * FROM `saturday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunday` [ RunTime:0.021001s ]
+[ sql ] [ SQL ] SELECT * FROM `sunday` LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-09T23:32:28+08:00 ] 127.0.0.1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `monday` [ RunTime:0.026001s ]
+[ sql ] [ SQL ] SELECT * FROM `monday` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuesday` [ RunTime:0.024002s ]
+[ sql ] [ SQL ] SELECT * FROM `tuesday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wednesday` [ RunTime:0.022001s ]
+[ sql ] [ SQL ] SELECT * FROM `wednesday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `thursday` [ RunTime:0.024001s ]
+[ sql ] [ SQL ] SELECT * FROM `thursday` LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `friday` [ RunTime:0.024001s ]
+[ sql ] [ SQL ] SELECT * FROM `friday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `saturday` [ RunTime:0.022001s ]
+[ sql ] [ SQL ] SELECT * FROM `saturday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunday` [ RunTime:0.023002s ]
+[ sql ] [ SQL ] SELECT * FROM `sunday` LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [2]Illegal string offset 'section_1'
+---------------------------------------------------------------
+[ 2018-03-09T23:33:41+08:00 ] 127.0.0.1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `monday` [ RunTime:0.022001s ]
+[ sql ] [ SQL ] SELECT * FROM `monday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuesday` [ RunTime:0.025002s ]
+[ sql ] [ SQL ] SELECT * FROM `tuesday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wednesday` [ RunTime:0.022001s ]
+[ sql ] [ SQL ] SELECT * FROM `wednesday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `thursday` [ RunTime:0.024001s ]
+[ sql ] [ SQL ] SELECT * FROM `thursday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `friday` [ RunTime:0.023002s ]
+[ sql ] [ SQL ] SELECT * FROM `friday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `saturday` [ RunTime:0.022001s ]
+[ sql ] [ SQL ] SELECT * FROM `saturday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunday` [ RunTime:0.024002s ]
+[ sql ] [ SQL ] SELECT * FROM `sunday` LIMIT 1 [ RunTime:0.001000s ]
+[ error ] [2]Illegal string offset 'section_1'
+---------------------------------------------------------------
+[ 2018-03-09T23:34:10+08:00 ] 127.0.0.1 GET /
+[ info ] class_schedule.com/ [运行时间：0.299017s][吞吐率：3.34req/s] [内存消耗：1,949.94kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; monitor_count=42',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\index.html [ array (
+  0 => 'mon',
+  1 => 'tue',
+  2 => 'wed',
+  3 => 'thu',
+  4 => 'fri',
+  5 => 'sat',
+  6 => 'sun',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `monday` [ RunTime:0.021001s ]
+[ sql ] [ SQL ] SELECT * FROM `monday` LIMIT 1 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuesday` [ RunTime:0.023001s ]
+[ sql ] [ SQL ] SELECT * FROM `tuesday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wednesday` [ RunTime:0.023001s ]
+[ sql ] [ SQL ] SELECT * FROM `wednesday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `thursday` [ RunTime:0.024002s ]
+[ sql ] [ SQL ] SELECT * FROM `thursday` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `friday` [ RunTime:0.029001s ]
+[ sql ] [ SQL ] SELECT * FROM `friday` LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `saturday` [ RunTime:0.035002s ]
+[ sql ] [ SQL ] SELECT * FROM `saturday` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunday` [ RunTime:0.047002s ]
+[ sql ] [ SQL ] SELECT * FROM `sunday` LIMIT 1 [ RunTime:0.001000s ]
+[ error ] [2]Illegal string offset 'section_1'[D:\phpStudy\WWW\class_schedule\runtime\temp\8f807b54fe8e34eaa75a719da1154c98.php:26]
+---------------------------------------------------------------
+[ 2018-03-09T23:35:46+08:00 ] 127.0.0.1 GET /
+[ info ] class_schedule.com/ [运行时间：0.329019s][吞吐率：3.04req/s] [内存消耗：2,066.34kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; monitor_count=43',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\index.html [ array (
+  0 => 'mon',
+  1 => 'tue',
+  2 => 'wed',
+  3 => 'thu',
+  4 => 'fri',
+  5 => 'sat',
+  6 => 'sun',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `monday` [ RunTime:0.027002s ]
+[ sql ] [ SQL ] SELECT * FROM `monday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuesday` [ RunTime:0.028002s ]
+[ sql ] [ SQL ] SELECT * FROM `tuesday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wednesday` [ RunTime:0.025001s ]
+[ sql ] [ SQL ] SELECT * FROM `wednesday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `thursday` [ RunTime:0.036002s ]
+[ sql ] [ SQL ] SELECT * FROM `thursday` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `friday` [ RunTime:0.033002s ]
+[ sql ] [ SQL ] SELECT * FROM `friday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `saturday` [ RunTime:0.040003s ]
+[ sql ] [ SQL ] SELECT * FROM `saturday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunday` [ RunTime:0.043002s ]
+[ sql ] [ SQL ] SELECT * FROM `sunday` LIMIT 1 [ RunTime:0.002000s ]
+[ error ] [2]Illegal string offset 'section_1'[D:\phpStudy\WWW\class_schedule\runtime\temp\8f807b54fe8e34eaa75a719da1154c98.php:26]
+---------------------------------------------------------------
+[ 2018-03-09T23:35:59+08:00 ] 127.0.0.1 GET /
+[ info ] class_schedule.com/ [运行时间：0.250015s][吞吐率：4.00req/s] [内存消耗：1,949.70kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; monitor_count=44',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\index.html [ array (
+  0 => 'mon',
+  1 => 'tue',
+  2 => 'wed',
+  3 => 'thu',
+  4 => 'fri',
+  5 => 'sat',
+  6 => 'sun',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `monday` [ RunTime:0.024001s ]
+[ sql ] [ SQL ] SELECT * FROM `monday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuesday` [ RunTime:0.024002s ]
+[ sql ] [ SQL ] SELECT * FROM `tuesday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wednesday` [ RunTime:0.027001s ]
+[ sql ] [ SQL ] SELECT * FROM `wednesday` LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `thursday` [ RunTime:0.024001s ]
+[ sql ] [ SQL ] SELECT * FROM `thursday` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `friday` [ RunTime:0.029002s ]
+[ sql ] [ SQL ] SELECT * FROM `friday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `saturday` [ RunTime:0.025001s ]
+[ sql ] [ SQL ] SELECT * FROM `saturday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunday` [ RunTime:0.028002s ]
+[ sql ] [ SQL ] SELECT * FROM `sunday` LIMIT 1 [ RunTime:0.001000s ]
+[ error ] [2]Illegal string offset 'section_1'[D:\phpStudy\WWW\class_schedule\runtime\temp\8f807b54fe8e34eaa75a719da1154c98.php:26]
+---------------------------------------------------------------
+[ 2018-03-09T23:36:30+08:00 ] 127.0.0.1 GET /
+[ info ] class_schedule.com/ [运行时间：0.411023s][吞吐率：2.43req/s] [内存消耗：2,033.08kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; monitor_count=45',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\index.html [ array (
+  0 => 'mon',
+  1 => 'tue',
+  2 => 'wed',
+  3 => 'thu',
+  4 => 'fri',
+  5 => 'sat',
+  6 => 'sun',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `monday` [ RunTime:0.042002s ]
+[ sql ] [ SQL ] SELECT * FROM `monday` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuesday` [ RunTime:0.038002s ]
+[ sql ] [ SQL ] SELECT * FROM `tuesday` LIMIT 1 [ RunTime:0.004001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wednesday` [ RunTime:0.046002s ]
+[ sql ] [ SQL ] SELECT * FROM `wednesday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `thursday` [ RunTime:0.046002s ]
+[ sql ] [ SQL ] SELECT * FROM `thursday` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `friday` [ RunTime:0.044003s ]
+[ sql ] [ SQL ] SELECT * FROM `friday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `saturday` [ RunTime:0.039002s ]
+[ sql ] [ SQL ] SELECT * FROM `saturday` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunday` [ RunTime:0.033002s ]
+[ sql ] [ SQL ] SELECT * FROM `sunday` LIMIT 1 [ RunTime:0.010001s ]
+---------------------------------------------------------------
+[ 2018-03-09T23:38:13+08:00 ] 127.0.0.1 GET /
+[ info ] class_schedule.com/ [运行时间：0.304018s][吞吐率：3.29req/s] [内存消耗：2,032.13kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; monitor_count=46',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\index.html [ array (
+  0 => 'mon',
+  1 => 'tue',
+  2 => 'wed',
+  3 => 'thu',
+  4 => 'fri',
+  5 => 'sat',
+  6 => 'sun',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `monday` [ RunTime:0.023001s ]
+[ sql ] [ SQL ] SELECT * FROM `monday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuesday` [ RunTime:0.028002s ]
+[ sql ] [ SQL ] SELECT * FROM `tuesday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wednesday` [ RunTime:0.030002s ]
+[ sql ] [ SQL ] SELECT * FROM `wednesday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `thursday` [ RunTime:0.041002s ]
+[ sql ] [ SQL ] SELECT * FROM `thursday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `friday` [ RunTime:0.040002s ]
+[ sql ] [ SQL ] SELECT * FROM `friday` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `saturday` [ RunTime:0.039002s ]
+[ sql ] [ SQL ] SELECT * FROM `saturday` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunday` [ RunTime:0.033002s ]
+[ sql ] [ SQL ] SELECT * FROM `sunday` LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-09T23:38:26+08:00 ] 127.0.0.1 GET /
+[ info ] class_schedule.com/ [运行时间：0.310017s][吞吐率：3.23req/s] [内存消耗：2,032.08kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; monitor_count=47',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\index.html [ array (
+  0 => 'mon',
+  1 => 'tue',
+  2 => 'wed',
+  3 => 'thu',
+  4 => 'fri',
+  5 => 'sat',
+  6 => 'sun',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `monday` [ RunTime:0.025001s ]
+[ sql ] [ SQL ] SELECT * FROM `monday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuesday` [ RunTime:0.022002s ]
+[ sql ] [ SQL ] SELECT * FROM `tuesday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wednesday` [ RunTime:0.028001s ]
+[ sql ] [ SQL ] SELECT * FROM `wednesday` LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `thursday` [ RunTime:0.033001s ]
+[ sql ] [ SQL ] SELECT * FROM `thursday` LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `friday` [ RunTime:0.038002s ]
+[ sql ] [ SQL ] SELECT * FROM `friday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `saturday` [ RunTime:0.035002s ]
+[ sql ] [ SQL ] SELECT * FROM `saturday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunday` [ RunTime:0.039002s ]
+[ sql ] [ SQL ] SELECT * FROM `sunday` LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-09T23:38:48+08:00 ] 127.0.0.1 GET /
+[ info ] class_schedule.com/ [运行时间：0.235014s][吞吐率：4.26req/s] [内存消耗：2,032.14kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; monitor_count=48',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\index.html [ array (
+  0 => 'mon',
+  1 => 'tue',
+  2 => 'wed',
+  3 => 'thu',
+  4 => 'fri',
+  5 => 'sat',
+  6 => 'sun',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `monday` [ RunTime:0.024001s ]
+[ sql ] [ SQL ] SELECT * FROM `monday` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuesday` [ RunTime:0.022001s ]
+[ sql ] [ SQL ] SELECT * FROM `tuesday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wednesday` [ RunTime:0.022002s ]
+[ sql ] [ SQL ] SELECT * FROM `wednesday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `thursday` [ RunTime:0.021001s ]
+[ sql ] [ SQL ] SELECT * FROM `thursday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `friday` [ RunTime:0.025001s ]
+[ sql ] [ SQL ] SELECT * FROM `friday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `saturday` [ RunTime:0.023002s ]
+[ sql ] [ SQL ] SELECT * FROM `saturday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunday` [ RunTime:0.023001s ]
+[ sql ] [ SQL ] SELECT * FROM `sunday` LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-09T23:39:42+08:00 ] 127.0.0.1 GET /
+[ info ] class_schedule.com/ [运行时间：0.268016s][吞吐率：3.73req/s] [内存消耗：2,035.60kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; monitor_count=49',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\index.html [ array (
+  0 => 'mon',
+  1 => 'tue',
+  2 => 'wed',
+  3 => 'thu',
+  4 => 'fri',
+  5 => 'sat',
+  6 => 'sun',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `monday` [ RunTime:0.028001s ]
+[ sql ] [ SQL ] SELECT * FROM `monday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuesday` [ RunTime:0.027002s ]
+[ sql ] [ SQL ] SELECT * FROM `tuesday` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wednesday` [ RunTime:0.025001s ]
+[ sql ] [ SQL ] SELECT * FROM `wednesday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `thursday` [ RunTime:0.025002s ]
+[ sql ] [ SQL ] SELECT * FROM `thursday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `friday` [ RunTime:0.024001s ]
+[ sql ] [ SQL ] SELECT * FROM `friday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `saturday` [ RunTime:0.027002s ]
+[ sql ] [ SQL ] SELECT * FROM `saturday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunday` [ RunTime:0.033002s ]
+[ sql ] [ SQL ] SELECT * FROM `sunday` LIMIT 1 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-09T23:41:37+08:00 ] 127.0.0.1 GET /
+[ info ] class_schedule.com/ [运行时间：0.325019s][吞吐率：3.08req/s] [内存消耗：2,031.80kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; monitor_count=50',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\index.html [ array (
+  0 => 'mon',
+  1 => 'tue',
+  2 => 'wed',
+  3 => 'thu',
+  4 => 'fri',
+  5 => 'sat',
+  6 => 'sun',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `monday` [ RunTime:0.027002s ]
+[ sql ] [ SQL ] SELECT * FROM `monday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuesday` [ RunTime:0.026001s ]
+[ sql ] [ SQL ] SELECT * FROM `tuesday` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wednesday` [ RunTime:0.031002s ]
+[ sql ] [ SQL ] SELECT * FROM `wednesday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `thursday` [ RunTime:0.036002s ]
+[ sql ] [ SQL ] SELECT * FROM `thursday` LIMIT 1 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `friday` [ RunTime:0.042002s ]
+[ sql ] [ SQL ] SELECT * FROM `friday` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `saturday` [ RunTime:0.037002s ]
+[ sql ] [ SQL ] SELECT * FROM `saturday` LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunday` [ RunTime:0.041003s ]
+[ sql ] [ SQL ] SELECT * FROM `sunday` LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-09T23:42:39+08:00 ] 127.0.0.1 GET /
+[ info ] class_schedule.com/ [运行时间：0.307018s][吞吐率：3.26req/s] [内存消耗：2,031.80kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; monitor_count=51',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\index.html [ array (
+  0 => 'mon',
+  1 => 'tue',
+  2 => 'wed',
+  3 => 'thu',
+  4 => 'fri',
+  5 => 'sat',
+  6 => 'sun',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `monday` [ RunTime:0.029002s ]
+[ sql ] [ SQL ] SELECT * FROM `monday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuesday` [ RunTime:0.027001s ]
+[ sql ] [ SQL ] SELECT * FROM `tuesday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wednesday` [ RunTime:0.025002s ]
+[ sql ] [ SQL ] SELECT * FROM `wednesday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `thursday` [ RunTime:0.025001s ]
+[ sql ] [ SQL ] SELECT * FROM `thursday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `friday` [ RunTime:0.037003s ]
+[ sql ] [ SQL ] SELECT * FROM `friday` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `saturday` [ RunTime:0.044002s ]
+[ sql ] [ SQL ] SELECT * FROM `saturday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunday` [ RunTime:0.042003s ]
+[ sql ] [ SQL ] SELECT * FROM `sunday` LIMIT 1 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-09T23:45:12+08:00 ] 127.0.0.1 GET /
+[ info ] class_schedule.com/ [运行时间：0.411023s][吞吐率：2.43req/s] [内存消耗：2,036.20kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; monitor_count=52',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\index.html [ array (
+  0 => 'mon',
+  1 => 'tue',
+  2 => 'wed',
+  3 => 'thu',
+  4 => 'fri',
+  5 => 'sat',
+  6 => 'sun',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008001s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `monday` [ RunTime:0.036002s ]
+[ sql ] [ SQL ] SELECT * FROM `monday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuesday` [ RunTime:0.026002s ]
+[ sql ] [ SQL ] SELECT * FROM `tuesday` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wednesday` [ RunTime:0.035002s ]
+[ sql ] [ SQL ] SELECT * FROM `wednesday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `thursday` [ RunTime:0.045003s ]
+[ sql ] [ SQL ] SELECT * FROM `thursday` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `friday` [ RunTime:0.049003s ]
+[ sql ] [ SQL ] SELECT * FROM `friday` LIMIT 1 [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `saturday` [ RunTime:0.046002s ]
+[ sql ] [ SQL ] SELECT * FROM `saturday` LIMIT 1 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunday` [ RunTime:0.038002s ]
+[ sql ] [ SQL ] SELECT * FROM `sunday` LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-09T23:45:18+08:00 ] 127.0.0.1 GET /
+[ info ] class_schedule.com/ [运行时间：0.341019s][吞吐率：2.93req/s] [内存消耗：1,916.66kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; monitor_count=53',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\index.html [ array (
+  0 => 'mon',
+  1 => 'tue',
+  2 => 'wed',
+  3 => 'thu',
+  4 => 'fri',
+  5 => 'sat',
+  6 => 'sun',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `monday` [ RunTime:0.025001s ]
+[ sql ] [ SQL ] SELECT * FROM `monday` LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuesday` [ RunTime:0.026001s ]
+[ sql ] [ SQL ] SELECT * FROM `tuesday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wednesday` [ RunTime:0.043003s ]
+[ sql ] [ SQL ] SELECT * FROM `wednesday` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `thursday` [ RunTime:0.048003s ]
+[ sql ] [ SQL ] SELECT * FROM `thursday` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `friday` [ RunTime:0.042002s ]
+[ sql ] [ SQL ] SELECT * FROM `friday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `saturday` [ RunTime:0.044003s ]
+[ sql ] [ SQL ] SELECT * FROM `saturday` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunday` [ RunTime:0.036002s ]
+[ sql ] [ SQL ] SELECT * FROM `sunday` LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-09T23:47:44+08:00 ] 127.0.0.1 GET /
+[ info ] class_schedule.com/ [运行时间：0.307017s][吞吐率：3.26req/s] [内存消耗：2,036.67kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; monitor_count=54',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\index.html [ array (
+  0 => 'mon',
+  1 => 'tue',
+  2 => 'wed',
+  3 => 'thu',
+  4 => 'fri',
+  5 => 'sat',
+  6 => 'sun',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `monday` [ RunTime:0.021001s ]
+[ sql ] [ SQL ] SELECT * FROM `monday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuesday` [ RunTime:0.018001s ]
+[ sql ] [ SQL ] SELECT * FROM `tuesday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wednesday` [ RunTime:0.026001s ]
+[ sql ] [ SQL ] SELECT * FROM `wednesday` LIMIT 1 [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `thursday` [ RunTime:0.041002s ]
+[ sql ] [ SQL ] SELECT * FROM `thursday` LIMIT 1 [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `friday` [ RunTime:0.033002s ]
+[ sql ] [ SQL ] SELECT * FROM `friday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `saturday` [ RunTime:0.034002s ]
+[ sql ] [ SQL ] SELECT * FROM `saturday` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunday` [ RunTime:0.037002s ]
+[ sql ] [ SQL ] SELECT * FROM `sunday` LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-09T23:48:03+08:00 ] 127.0.0.1 GET /
+[ info ] class_schedule.com/ [运行时间：0.293017s][吞吐率：3.41req/s] [内存消耗：2,036.45kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; monitor_count=55',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\index.html [ array (
+  0 => 'mon',
+  1 => 'tue',
+  2 => 'wed',
+  3 => 'thu',
+  4 => 'fri',
+  5 => 'sat',
+  6 => 'sun',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `monday` [ RunTime:0.022001s ]
+[ sql ] [ SQL ] SELECT * FROM `monday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuesday` [ RunTime:0.025001s ]
+[ sql ] [ SQL ] SELECT * FROM `tuesday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wednesday` [ RunTime:0.019002s ]
+[ sql ] [ SQL ] SELECT * FROM `wednesday` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `thursday` [ RunTime:0.027001s ]
+[ sql ] [ SQL ] SELECT * FROM `thursday` LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `friday` [ RunTime:0.030002s ]
+[ sql ] [ SQL ] SELECT * FROM `friday` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `saturday` [ RunTime:0.038002s ]
+[ sql ] [ SQL ] SELECT * FROM `saturday` LIMIT 1 [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunday` [ RunTime:0.031002s ]
+[ sql ] [ SQL ] SELECT * FROM `sunday` LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-09T23:48:15+08:00 ] 127.0.0.1 GET /
+[ info ] class_schedule.com/ [运行时间：0.200012s][吞吐率：5.00req/s] [内存消耗：2,036.40kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; monitor_count=56',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\index.html [ array (
+  0 => 'mon',
+  1 => 'tue',
+  2 => 'wed',
+  3 => 'thu',
+  4 => 'fri',
+  5 => 'sat',
+  6 => 'sun',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003001s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `monday` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT * FROM `monday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuesday` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT * FROM `tuesday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wednesday` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT * FROM `wednesday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `thursday` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SELECT * FROM `thursday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `friday` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT * FROM `friday` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `saturday` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT * FROM `saturday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunday` [ RunTime:0.018001s ]
+[ sql ] [ SQL ] SELECT * FROM `sunday` LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-09T23:48:27+08:00 ] 127.0.0.1 GET /
+[ info ] class_schedule.com/ [运行时间：0.219013s][吞吐率：4.57req/s] [内存消耗：2,036.45kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; monitor_count=57',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\index.html [ array (
+  0 => 'mon',
+  1 => 'tue',
+  2 => 'wed',
+  3 => 'thu',
+  4 => 'fri',
+  5 => 'sat',
+  6 => 'sun',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `monday` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT * FROM `monday` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuesday` [ RunTime:0.020002s ]
+[ sql ] [ SQL ] SELECT * FROM `tuesday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wednesday` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT * FROM `wednesday` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `thursday` [ RunTime:0.020001s ]
+[ sql ] [ SQL ] SELECT * FROM `thursday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `friday` [ RunTime:0.020001s ]
+[ sql ] [ SQL ] SELECT * FROM `friday` LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `saturday` [ RunTime:0.023002s ]
+[ sql ] [ SQL ] SELECT * FROM `saturday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunday` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT * FROM `sunday` LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-09T23:49:08+08:00 ] 127.0.0.1 GET /
+[ info ] class_schedule.com/ [运行时间：0.200012s][吞吐率：5.00req/s] [内存消耗：2,036.51kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; monitor_count=58',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\index.html [ array (
+  0 => 'mon',
+  1 => 'tue',
+  2 => 'wed',
+  3 => 'thu',
+  4 => 'fri',
+  5 => 'sat',
+  6 => 'sun',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `monday` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT * FROM `monday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuesday` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SELECT * FROM `tuesday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wednesday` [ RunTime:0.019002s ]
+[ sql ] [ SQL ] SELECT * FROM `wednesday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `thursday` [ RunTime:0.016000s ]
+[ sql ] [ SQL ] SELECT * FROM `thursday` LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `friday` [ RunTime:0.018001s ]
+[ sql ] [ SQL ] SELECT * FROM `friday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `saturday` [ RunTime:0.018001s ]
+[ sql ] [ SQL ] SELECT * FROM `saturday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunday` [ RunTime:0.021001s ]
+[ sql ] [ SQL ] SELECT * FROM `sunday` LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-09T23:49:25+08:00 ] 127.0.0.1 GET /
+[ info ] class_schedule.com/ [运行时间：0.272016s][吞吐率：3.68req/s] [内存消耗：1,916.67kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; monitor_count=59',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\index.html [ array (
+  0 => 'mon',
+  1 => 'tue',
+  2 => 'wed',
+  3 => 'thu',
+  4 => 'fri',
+  5 => 'sat',
+  6 => 'sun',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `monday` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT * FROM `monday` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuesday` [ RunTime:0.018001s ]
+[ sql ] [ SQL ] SELECT * FROM `tuesday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wednesday` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT * FROM `wednesday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `thursday` [ RunTime:0.030002s ]
+[ sql ] [ SQL ] SELECT * FROM `thursday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `friday` [ RunTime:0.039002s ]
+[ sql ] [ SQL ] SELECT * FROM `friday` LIMIT 1 [ RunTime:0.004001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `saturday` [ RunTime:0.036002s ]
+[ sql ] [ SQL ] SELECT * FROM `saturday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunday` [ RunTime:0.027001s ]
+[ sql ] [ SQL ] SELECT * FROM `sunday` LIMIT 1 [ RunTime:0.003001s ]
+---------------------------------------------------------------
+[ 2018-03-09T23:51:22+08:00 ] 127.0.0.1 GET /
+[ info ] class_schedule.com/ [运行时间：0.300017s][吞吐率：3.33req/s] [内存消耗：2,084.24kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; monitor_count=60',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\index.html [ array (
+  0 => 'mon',
+  1 => 'tue',
+  2 => 'wed',
+  3 => 'thu',
+  4 => 'fri',
+  5 => 'sat',
+  6 => 'sun',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `monday` [ RunTime:0.032002s ]
+[ sql ] [ SQL ] SELECT * FROM `monday` LIMIT 1 [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuesday` [ RunTime:0.036002s ]
+[ sql ] [ SQL ] SELECT * FROM `tuesday` LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wednesday` [ RunTime:0.032001s ]
+[ sql ] [ SQL ] SELECT * FROM `wednesday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `thursday` [ RunTime:0.029002s ]
+[ sql ] [ SQL ] SELECT * FROM `thursday` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `friday` [ RunTime:0.034002s ]
+[ sql ] [ SQL ] SELECT * FROM `friday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `saturday` [ RunTime:0.027002s ]
+[ sql ] [ SQL ] SELECT * FROM `saturday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunday` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT * FROM `sunday` LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-09T23:51:50+08:00 ] 127.0.0.1 GET /
+[ info ] class_schedule.com/ [运行时间：0.226013s][吞吐率：4.42req/s] [内存消耗：2,084.27kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; monitor_count=63',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\index.html [ array (
+  0 => 'mon',
+  1 => 'tue',
+  2 => 'wed',
+  3 => 'thu',
+  4 => 'fri',
+  5 => 'sat',
+  6 => 'sun',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `monday` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT * FROM `monday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuesday` [ RunTime:0.018001s ]
+[ sql ] [ SQL ] SELECT * FROM `tuesday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wednesday` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SELECT * FROM `wednesday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `thursday` [ RunTime:0.018001s ]
+[ sql ] [ SQL ] SELECT * FROM `thursday` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `friday` [ RunTime:0.019002s ]
+[ sql ] [ SQL ] SELECT * FROM `friday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `saturday` [ RunTime:0.020001s ]
+[ sql ] [ SQL ] SELECT * FROM `saturday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunday` [ RunTime:0.021001s ]
+[ sql ] [ SQL ] SELECT * FROM `sunday` LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-09T23:52:56+08:00 ] 127.0.0.1 GET /
+[ info ] class_schedule.com/ [运行时间：0.310018s][吞吐率：3.23req/s] [内存消耗：2,084.31kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; monitor_count=64',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\index.html [ array (
+  0 => 'mon',
+  1 => 'tue',
+  2 => 'wed',
+  3 => 'thu',
+  4 => 'fri',
+  5 => 'sat',
+  6 => 'sun',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014001s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `monday` [ RunTime:0.024001s ]
+[ sql ] [ SQL ] SELECT * FROM `monday` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuesday` [ RunTime:0.033002s ]
+[ sql ] [ SQL ] SELECT * FROM `tuesday` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wednesday` [ RunTime:0.030002s ]
+[ sql ] [ SQL ] SELECT * FROM `wednesday` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `thursday` [ RunTime:0.033002s ]
+[ sql ] [ SQL ] SELECT * FROM `thursday` LIMIT 1 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `friday` [ RunTime:0.033001s ]
+[ sql ] [ SQL ] SELECT * FROM `friday` LIMIT 1 [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `saturday` [ RunTime:0.028001s ]
+[ sql ] [ SQL ] SELECT * FROM `saturday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunday` [ RunTime:0.024002s ]
+[ sql ] [ SQL ] SELECT * FROM `sunday` LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-09T23:53:05+08:00 ] 127.0.0.1 GET /
+[ info ] class_schedule.com/ [运行时间：0.212012s][吞吐率：4.72req/s] [内存消耗：2,084.41kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; monitor_count=65',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\index.html [ array (
+  0 => 'mon',
+  1 => 'tue',
+  2 => 'wed',
+  3 => 'thu',
+  4 => 'fri',
+  5 => 'sat',
+  6 => 'sun',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `monday` [ RunTime:0.021001s ]
+[ sql ] [ SQL ] SELECT * FROM `monday` LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuesday` [ RunTime:0.020001s ]
+[ sql ] [ SQL ] SELECT * FROM `tuesday` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wednesday` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT * FROM `wednesday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `thursday` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT * FROM `thursday` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `friday` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SELECT * FROM `friday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `saturday` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT * FROM `saturday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunday` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SELECT * FROM `sunday` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-03-09T23:53:27+08:00 ] 127.0.0.1 GET /
+[ info ] class_schedule.com/ [运行时间：0.193011s][吞吐率：5.18req/s] [内存消耗：2,084.85kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; monitor_count=66',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\index.html [ array (
+  0 => 'mon',
+  1 => 'tue',
+  2 => 'wed',
+  3 => 'thu',
+  4 => 'fri',
+  5 => 'sat',
+  6 => 'sun',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `monday` [ RunTime:0.016000s ]
+[ sql ] [ SQL ] SELECT * FROM `monday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuesday` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT * FROM `tuesday` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wednesday` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT * FROM `wednesday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `thursday` [ RunTime:0.018001s ]
+[ sql ] [ SQL ] SELECT * FROM `thursday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `friday` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT * FROM `friday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `saturday` [ RunTime:0.018001s ]
+[ sql ] [ SQL ] SELECT * FROM `saturday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunday` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SELECT * FROM `sunday` LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-09T23:54:58+08:00 ] 127.0.0.1 GET /
+[ info ] class_schedule.com/ [运行时间：0.257015s][吞吐率：3.89req/s] [内存消耗：2,086.34kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; monitor_count=69',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\index.html [ array (
+  0 => 'mon',
+  1 => 'tue',
+  2 => 'wed',
+  3 => 'thu',
+  4 => 'fri',
+  5 => 'sat',
+  6 => 'sun',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `monday` [ RunTime:0.025002s ]
+[ sql ] [ SQL ] SELECT * FROM `monday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuesday` [ RunTime:0.026001s ]
+[ sql ] [ SQL ] SELECT * FROM `tuesday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wednesday` [ RunTime:0.025002s ]
+[ sql ] [ SQL ] SELECT * FROM `wednesday` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `thursday` [ RunTime:0.025001s ]
+[ sql ] [ SQL ] SELECT * FROM `thursday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `friday` [ RunTime:0.031002s ]
+[ sql ] [ SQL ] SELECT * FROM `friday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `saturday` [ RunTime:0.024002s ]
+[ sql ] [ SQL ] SELECT * FROM `saturday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunday` [ RunTime:0.024001s ]
+[ sql ] [ SQL ] SELECT * FROM `sunday` LIMIT 1 [ RunTime:0.001000s ]
+[ error ] [4]语法错误: unexpected ')'[D:\phpStudy\WWW\class_schedule\runtime\temp\8f807b54fe8e34eaa75a719da1154c98.php:55]
+---------------------------------------------------------------
+[ 2018-03-09T23:55:12+08:00 ] 127.0.0.1 GET /
+[ info ] class_schedule.com/ [运行时间：0.235013s][吞吐率：4.26req/s] [内存消耗：2,084.86kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; monitor_count=70',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\index.html [ array (
+  0 => 'mon',
+  1 => 'tue',
+  2 => 'wed',
+  3 => 'thu',
+  4 => 'fri',
+  5 => 'sat',
+  6 => 'sun',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `monday` [ RunTime:0.024001s ]
+[ sql ] [ SQL ] SELECT * FROM `monday` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuesday` [ RunTime:0.023001s ]
+[ sql ] [ SQL ] SELECT * FROM `tuesday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wednesday` [ RunTime:0.025002s ]
+[ sql ] [ SQL ] SELECT * FROM `wednesday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `thursday` [ RunTime:0.023001s ]
+[ sql ] [ SQL ] SELECT * FROM `thursday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `friday` [ RunTime:0.022002s ]
+[ sql ] [ SQL ] SELECT * FROM `friday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `saturday` [ RunTime:0.023001s ]
+[ sql ] [ SQL ] SELECT * FROM `saturday` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunday` [ RunTime:0.022001s ]
+[ sql ] [ SQL ] SELECT * FROM `sunday` LIMIT 1 [ RunTime:0.002001s ]
+---------------------------------------------------------------
+[ 2018-03-09T23:55:24+08:00 ] 127.0.0.1 GET /
+[ info ] class_schedule.com/ [运行时间：0.314018s][吞吐率：3.18req/s] [内存消耗：2,084.87kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; monitor_count=73',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\index.html [ array (
+  0 => 'mon',
+  1 => 'tue',
+  2 => 'wed',
+  3 => 'thu',
+  4 => 'fri',
+  5 => 'sat',
+  6 => 'sun',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `monday` [ RunTime:0.028002s ]
+[ sql ] [ SQL ] SELECT * FROM `monday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuesday` [ RunTime:0.032002s ]
+[ sql ] [ SQL ] SELECT * FROM `tuesday` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wednesday` [ RunTime:0.041002s ]
+[ sql ] [ SQL ] SELECT * FROM `wednesday` LIMIT 1 [ RunTime:0.004001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `thursday` [ RunTime:0.045002s ]
+[ sql ] [ SQL ] SELECT * FROM `thursday` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `friday` [ RunTime:0.027002s ]
+[ sql ] [ SQL ] SELECT * FROM `friday` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `saturday` [ RunTime:0.026001s ]
+[ sql ] [ SQL ] SELECT * FROM `saturday` LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunday` [ RunTime:0.025001s ]
+[ sql ] [ SQL ] SELECT * FROM `sunday` LIMIT 1 [ RunTime:0.002000s ]

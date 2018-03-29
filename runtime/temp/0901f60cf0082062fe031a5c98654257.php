@@ -1,0 +1,90 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:84:"D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\note_wall.html";i:1522161625;}*/ ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+
+    <title>Title</title>
+</head>
+<body>
+<div class="col-md-1" style="background-color: #ffffff">
+    <ul class="nav nav-tabs">
+
+        <li>
+            <a href="<?php echo url('note_student_list',array('schedule_id'=>$schedule_id,'week'=>$week_name,'section'=>$section_name)); ?>">返回</a>
+        </li>
+
+    </ul>
+</div>
+<div class="col-md-1" style="background-color: #ffffff">
+    <img src="/image/student_default.jpg">
+    <br>
+    <br>
+
+
+</div>
+
+<div class="col-md-8" style="background-color: #FFFFFF">
+
+    <h1 align="center" class="center" style="color: #880000">笔记详情&nbsp;<small><?php echo (isset($student_name) && ($student_name !== '')?$student_name:""); ?></small>
+    </h1>
+    <div style="height: 50px" class="article clearfix">
+
+        <ul style="height: 1px; padding-left: 40%" class="nav nav-pills">
+            <?php if($flag2 == '1'): ?>
+                <li><a style="width:auto;height: 40px" href="<?php echo url('edit_note',array('schedule_id'=>$schedule_id,'section_name'=>$section_name,'week_name'=>$week_name,'student_name'=>$student_name)); ?>"> 编辑 </a>&nbsp;
+                </li>
+                <li><a style="width:auto;height: 40px" onclick="delete_note(this,'<?php echo $notes_id; ?>')" href="javascript:;">删除 </a></li>
+            <?php endif; ?>
+
+        </ul>
+
+    </div>
+    <hr style="background-color: #4288ce;height: 1px">
+    <div align="left">
+        <article>
+            <?php echo $note_text; ?>
+        </article>
+    </div>
+</div>
+</div>
+<div class="col-md-1" style="background-color: #ffffff">
+    <img src="/image/student_default.jpg">
+    <br>
+    <br>
+
+
+</div>
+<div class="col-md-1" style="background-color: #ffffff">
+
+
+
+</div>
+
+</body>
+<script>
+    function delete_note(obj, id) {
+        var url;
+        url = window.location.href;
+
+            $.get("<?php echo url('delete_note'); ?>", {id: id});
+            alert('删除成功');
+            window.location.href = url; //允许用户进入后台
+
+    }
+
+</script>
+</html>

@@ -1,0 +1,114 @@
+---------------------------------------------------------------
+[ 2018-03-29T17:06:03+08:00 ] 127.0.0.1 GET /
+[ info ] class_schedule.com/ [运行时间：0.393023s][吞吐率：2.54req/s] [内存消耗：2,065.24kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'accept' => 'text/html, application/xhtml+xml, */*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\index.html [ array (
+  0 => 'mon',
+  1 => 'tue',
+  2 => 'wed',
+  3 => 'thu',
+  4 => 'fri',
+  5 => 'sat',
+  6 => 'sun',
+  7 => 'schedule_id',
+  8 => 'sch_info',
+  9 => 'updated',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `schedule_info` [ RunTime:0.032001s ]
+[ sql ] [ SQL ] SELECT * FROM `schedule_info` WHERE  `school_name` = '灵川中学'  AND `class_name` = '172' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `monday` [ RunTime:0.028001s ]
+[ sql ] [ SQL ] SELECT * FROM `monday` WHERE  `monday_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuesday` [ RunTime:0.028002s ]
+[ sql ] [ SQL ] SELECT * FROM `tuesday` WHERE  `tuesday_id` = 1 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wednesday` [ RunTime:0.027002s ]
+[ sql ] [ SQL ] SELECT * FROM `wednesday` WHERE  `wednesday_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `thursday` [ RunTime:0.028001s ]
+[ sql ] [ SQL ] SELECT * FROM `thursday` WHERE  `thursday_id` = 1 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `friday` [ RunTime:0.027001s ]
+[ sql ] [ SQL ] SELECT * FROM `friday` WHERE  `friday_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `saturday` [ RunTime:0.027002s ]
+[ sql ] [ SQL ] SELECT * FROM `saturday` WHERE  `saturday_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunday` [ RunTime:0.028002s ]
+[ sql ] [ SQL ] SELECT * FROM `sunday` WHERE  `sunday_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-29T17:06:06+08:00 ] 127.0.0.1 GET /index/index/note_student_list/schedule_id/1/week/monday/section/section_1.html
+[ info ] class_schedule.com/index/index/note_student_list/schedule_id/1/week/monday/section/section_1.html [运行时间：0.118007s][吞吐率：8.47req/s] [内存消耗：3,018.70kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'note_student_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://class_schedule.com/',
+  'accept' => 'text/html, application/xhtml+xml, */*',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/note_student_list/schedule_id/1/week/monday/section/section_1_html' => '',
+  'schedule_id' => '1',
+  'week' => 'monday',
+  'section' => 'section_1',
+)
+[ info ] [ RUN ] app\index\controller\Index->note_student_list[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\note_student_list.html [ array (
+  0 => 'user_identity',
+  1 => 'notes',
+  2 => 'num',
+  3 => 'num1',
+  4 => 'c_u_text2',
+  5 => 'num2',
+  6 => 'notes2',
+  7 => 'title',
+  8 => 'schedule_id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.027002s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `section_name` = 'section_1'  AND `week_name` = 'monday'  AND `schedule_id` = 1 [ RunTime:0.019001s ]

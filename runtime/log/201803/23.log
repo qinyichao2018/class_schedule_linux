@@ -1,0 +1,3507 @@
+---------------------------------------------------------------
+[ 2018-03-23T06:22:53+08:00 ] 127.0.0.1 GET /
+[ info ] class_schedule.com/ [运行时间：0.731042s][吞吐率：1.37req/s] [内存消耗：2,049.09kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; monitor_count=5166',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\index.html [ array (
+  0 => 'sch_info',
+  1 => 'updated',
+  2 => 'mon',
+  3 => 'tue',
+  4 => 'wed',
+  5 => 'thu',
+  6 => 'fri',
+  7 => 'sat',
+  8 => 'sun',
+  9 => 'schedule_id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023001s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `schedule_info` [ RunTime:0.045003s ]
+[ sql ] [ SQL ] SELECT * FROM `schedule_info` WHERE  `school_name` = '灵川中学'  AND `class_name` = '172' LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `monday` [ RunTime:0.045003s ]
+[ sql ] [ SQL ] SELECT * FROM `monday` WHERE  `monday_id` = 1 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuesday` [ RunTime:0.047003s ]
+[ sql ] [ SQL ] SELECT * FROM `tuesday` WHERE  `tuesday_id` = 1 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wednesday` [ RunTime:0.049003s ]
+[ sql ] [ SQL ] SELECT * FROM `wednesday` WHERE  `wednesday_id` = 1 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `thursday` [ RunTime:0.045003s ]
+[ sql ] [ SQL ] SELECT * FROM `thursday` WHERE  `thursday_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `friday` [ RunTime:0.044002s ]
+[ sql ] [ SQL ] SELECT * FROM `friday` WHERE  `friday_id` = 1 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `saturday` [ RunTime:0.053003s ]
+[ sql ] [ SQL ] SELECT * FROM `saturday` WHERE  `saturday_id` = 1 LIMIT 1 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunday` [ RunTime:0.043002s ]
+[ sql ] [ SQL ] SELECT * FROM `sunday` WHERE  `sunday_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-23T06:22:57+08:00 ] 127.0.0.1 GET /index/user/student_login.html
+[ info ] class_schedule.com/index/user/student_login.html [运行时间：0.122007s][吞吐率：8.20req/s] [内存消耗：1,364.31kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'student_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5167',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/user/student_login_html' => '',
+)
+[ info ] [ RUN ] app\index\controller\User->student_login[ D:\phpStudy\WWW\class_schedule\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\user\student_login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-23T06:22:57+08:00 ] 127.0.0.1 GET /captcha.html
+[ info ] class_schedule.com/captcha.html [运行时间：0.115006s][吞吐率：8.70req/s] [内存消耗：1,082.66kb] [文件加载：37]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5167',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/user/student_login.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/captcha_html' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\phpStudy\WWW\class_schedule\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-23T06:23:06+08:00 ] 127.0.0.1 GET /
+[ info ] class_schedule.com/ [运行时间：0.490028s][吞吐率：2.04req/s] [内存消耗：2,049.48kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5168',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\index.html [ array (
+  0 => 'sch_info',
+  1 => 'updated',
+  2 => 'mon',
+  3 => 'tue',
+  4 => 'wed',
+  5 => 'thu',
+  6 => 'fri',
+  7 => 'sat',
+  8 => 'sun',
+  9 => 'schedule_id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `schedule_info` [ RunTime:0.039002s ]
+[ sql ] [ SQL ] SELECT * FROM `schedule_info` WHERE  `school_name` = '灵川中学'  AND `class_name` = '172' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `monday` [ RunTime:0.036002s ]
+[ sql ] [ SQL ] SELECT * FROM `monday` WHERE  `monday_id` = 1 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuesday` [ RunTime:0.055003s ]
+[ sql ] [ SQL ] SELECT * FROM `tuesday` WHERE  `tuesday_id` = 1 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wednesday` [ RunTime:0.042002s ]
+[ sql ] [ SQL ] SELECT * FROM `wednesday` WHERE  `wednesday_id` = 1 LIMIT 1 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `thursday` [ RunTime:0.043002s ]
+[ sql ] [ SQL ] SELECT * FROM `thursday` WHERE  `thursday_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `friday` [ RunTime:0.045003s ]
+[ sql ] [ SQL ] SELECT * FROM `friday` WHERE  `friday_id` = 1 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `saturday` [ RunTime:0.043002s ]
+[ sql ] [ SQL ] SELECT * FROM `saturday` WHERE  `saturday_id` = 1 LIMIT 1 [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunday` [ RunTime:0.060003s ]
+[ sql ] [ SQL ] SELECT * FROM `sunday` WHERE  `sunday_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-23T06:23:12+08:00 ] 127.0.0.1 GET /index/user/teacher_login.html
+[ info ] class_schedule.com/index/user/teacher_login.html [运行时间：0.085005s][吞吐率：11.76req/s] [内存消耗：1,364.27kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'teacher_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5169',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/user/teacher_login_html' => '',
+)
+[ info ] [ RUN ] app\index\controller\User->teacher_login[ D:\phpStudy\WWW\class_schedule\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\user\teacher_login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-23T06:23:12+08:00 ] 127.0.0.1 GET /captcha.html
+[ info ] class_schedule.com/captcha.html [运行时间：0.075004s][吞吐率：13.33req/s] [内存消耗：1,082.66kb] [文件加载：37]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5170',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/user/teacher_login.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/captcha_html' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\phpStudy\WWW\class_schedule\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-23T06:23:19+08:00 ] 127.0.0.1 GET /
+[ info ] class_schedule.com/ [运行时间：0.587034s][吞吐率：1.70req/s] [内存消耗：2,049.48kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5170',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\index.html [ array (
+  0 => 'sch_info',
+  1 => 'updated',
+  2 => 'mon',
+  3 => 'tue',
+  4 => 'wed',
+  5 => 'thu',
+  6 => 'fri',
+  7 => 'sat',
+  8 => 'sun',
+  9 => 'schedule_id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.038002s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `schedule_info` [ RunTime:0.046003s ]
+[ sql ] [ SQL ] SELECT * FROM `schedule_info` WHERE  `school_name` = '灵川中学'  AND `class_name` = '172' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `monday` [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT * FROM `monday` WHERE  `monday_id` = 1 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuesday` [ RunTime:0.049003s ]
+[ sql ] [ SQL ] SELECT * FROM `tuesday` WHERE  `tuesday_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wednesday` [ RunTime:0.057003s ]
+[ sql ] [ SQL ] SELECT * FROM `wednesday` WHERE  `wednesday_id` = 1 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `thursday` [ RunTime:0.046003s ]
+[ sql ] [ SQL ] SELECT * FROM `thursday` WHERE  `thursday_id` = 1 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `friday` [ RunTime:0.041003s ]
+[ sql ] [ SQL ] SELECT * FROM `friday` WHERE  `friday_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `saturday` [ RunTime:0.040002s ]
+[ sql ] [ SQL ] SELECT * FROM `saturday` WHERE  `saturday_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunday` [ RunTime:0.038002s ]
+[ sql ] [ SQL ] SELECT * FROM `sunday` WHERE  `sunday_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-23T06:23:22+08:00 ] 127.0.0.1 GET /index/user/student_login.html
+[ info ] class_schedule.com/index/user/student_login.html [运行时间：0.062004s][吞吐率：16.13req/s] [内存消耗：1,364.24kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'student_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5171',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/user/student_login_html' => '',
+)
+[ info ] [ RUN ] app\index\controller\User->student_login[ D:\phpStudy\WWW\class_schedule\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\user\student_login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-23T06:23:22+08:00 ] 127.0.0.1 GET /captcha.html
+[ info ] class_schedule.com/captcha.html [运行时间：0.093006s][吞吐率：10.75req/s] [内存消耗：1,082.67kb] [文件加载：37]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5172',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/user/student_login.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/captcha_html' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\phpStudy\WWW\class_schedule\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-23T06:23:43+08:00 ] 127.0.0.1 POST /index/user/check_student_login.html
+[ info ] class_schedule.com/index/user/check_student_login.html [运行时间：0.217013s][吞吐率：4.61req/s] [内存消耗：1,938.02kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'check_student_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5172',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://class_schedule.com/index/user/student_login.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://class_schedule.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '156',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/user/check_student_login_html' => '',
+  'school_name' => '灵川中学',
+  'class_name' => '172',
+  'student_number' => '1352100509',
+  'student_name' => '王杰',
+  'password' => '123456',
+  'verification_code' => '',
+)
+[ info ] [ RUN ] app\index\controller\User->check_student_login[ D:\phpStudy\WWW\class_schedule\application\index\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006001s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.111006s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `school_name` = '灵川中学'  AND `class_name` = '172'  AND `student_number` = 1352100509  AND `student_name` = '王杰' LIMIT 1 [ RunTime:0.003000s ]
+---------------------------------------------------------------
+[ 2018-03-23T06:23:45+08:00 ] 127.0.0.1 GET /index/user/student_index.html
+[ info ] class_schedule.com/index/user/student_index.html [运行时间：0.402023s][吞吐率：2.49req/s] [内存消耗：2,065.31kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'student_index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5172',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/user/student_login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/user/student_index_html' => '',
+)
+[ info ] [ RUN ] app\index\controller\User->student_index[ D:\phpStudy\WWW\class_schedule\application\index\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\user\student_index.html [ array (
+  0 => 'mon',
+  1 => 'tue',
+  2 => 'wed',
+  3 => 'thu',
+  4 => 'fri',
+  5 => 'sat',
+  6 => 'sun',
+  7 => 'schedule_id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `schedule_info` [ RunTime:0.038002s ]
+[ sql ] [ SQL ] SELECT * FROM `schedule_info` WHERE  `class_name` = '172'  AND `school_name` = '灵川中学' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `monday` [ RunTime:0.033002s ]
+[ sql ] [ SQL ] SELECT * FROM `monday` WHERE  `monday_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuesday` [ RunTime:0.034002s ]
+[ sql ] [ SQL ] SELECT * FROM `tuesday` WHERE  `tuesday_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wednesday` [ RunTime:0.037003s ]
+[ sql ] [ SQL ] SELECT * FROM `wednesday` WHERE  `wednesday_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `thursday` [ RunTime:0.039002s ]
+[ sql ] [ SQL ] SELECT * FROM `thursday` WHERE  `thursday_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `friday` [ RunTime:0.033002s ]
+[ sql ] [ SQL ] SELECT * FROM `friday` WHERE  `friday_id` = 1 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `saturday` [ RunTime:0.037002s ]
+[ sql ] [ SQL ] SELECT * FROM `saturday` WHERE  `saturday_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunday` [ RunTime:0.034002s ]
+[ sql ] [ SQL ] SELECT * FROM `sunday` WHERE  `sunday_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-23T06:23:57+08:00 ] 127.0.0.1 GET /index/index/note_student_list/schedule_id/1/week/monday/section/section_1.html
+[ info ] class_schedule.com/index/index/note_student_list/schedule_id/1/week/monday/section/section_1.html [运行时间：0.150009s][吞吐率：6.67req/s] [内存消耗：1,996.43kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'note_student_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5173',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/user/student_index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/note_student_list/schedule_id/1/week/monday/section/section_1_html' => '',
+  'schedule_id' => '1',
+  'week' => 'monday',
+  'section' => 'section_1',
+)
+[ info ] [ RUN ] app\index\controller\Index->note_student_list[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\note_student_list.html [ array (
+  0 => 'notes',
+  1 => 'num',
+  2 => 'num1',
+  3 => 'c_u_text2',
+  4 => 'num2',
+  5 => 'notes2',
+  6 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.050003s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `student_name` = '王杰'  AND `section_name` = 'section_1'  AND `week_name` = 'monday'  AND `schedule_id` = 1 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `section_name` = 'section_1'  AND `week_name` = 'monday'  AND `schedule_id` = 1 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-23T06:23:59+08:00 ] 127.0.0.1 GET /index/index/note_wall/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0/section_name/section_1.html
+[ info ] class_schedule.com/index/index/note_wall/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0/section_name/section_1.html [运行时间：0.149008s][吞吐率：6.71req/s] [内存消耗：2,067.91kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'note_wall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5174',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/note_student_list/schedule_id/1/week/monday/section/section_1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/note_wall/week_name/monday/student_name/王杰/section_name/section_1_html' => '',
+  'week_name' => 'monday',
+  'student_name' => '王杰',
+  'section_name' => 'section_1',
+)
+[ info ] [ RUN ] app\index\controller\Index->note_wall[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\note_wall.html [ array (
+  0 => 'week_name',
+  1 => 'student_name',
+  2 => 'section_name',
+  3 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.063004s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = '王杰'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-23T06:24:28+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html [运行时间：0.119006s][吞吐率：8.40req/s] [内存消耗：1,902.59kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5175',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/note_wall/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0/section_name/section_1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/王杰_html' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => '王杰',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.035002s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = '王杰'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-23T06:58:04+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html [运行时间：0.319019s][吞吐率：3.13req/s] [内存消耗：2,019.45kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5176',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/note_wall/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0/section_name/section_1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/王杰_html' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => '王杰',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.043002s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.107006s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = '王杰'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-23T06:58:05+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/__PUBLIC__/ckeditor/ckeditor.js
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/__PUBLIC__/ckeditor/ckeditor.js [运行时间：0.361020s][吞吐率：2.77req/s] [内存消耗：1,899.58kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5176',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/__PUBLIC__/ckeditor/ckeditor_js' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => '__PUBLIC__',
+  'ckeditor' => 'ckeditor.js',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.058004s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = '__PUBLIC__'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:03:12+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html [运行时间：0.109007s][吞吐率：9.17req/s] [内存消耗：1,902.95kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5177',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/note_wall/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0/section_name/section_1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/王杰_html' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => '王杰',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007001s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.028001s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = '王杰'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:03:12+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/__PUBLIC__/ckeditor/ckeditor.js
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/__PUBLIC__/ckeditor/ckeditor.js [运行时间：0.194011s][吞吐率：5.15req/s] [内存消耗：1,899.72kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5177',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/__PUBLIC__/ckeditor/ckeditor_js' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => '__PUBLIC__',
+  'ckeditor' => 'ckeditor.js',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.038002s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = '__PUBLIC__'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:03:27+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html [运行时间：0.110006s][吞吐率：9.09req/s] [内存消耗：1,902.95kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5178',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/note_wall/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0/section_name/section_1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/王杰_html' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => '王杰',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.028001s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = '王杰'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.002001s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:03:27+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/__PUBLIC__/ckeditor/ckeditor.js
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/__PUBLIC__/ckeditor/ckeditor.js [运行时间：0.169010s][吞吐率：5.92req/s] [内存消耗：1,899.72kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5178',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/__PUBLIC__/ckeditor/ckeditor_js' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => '__PUBLIC__',
+  'ckeditor' => 'ckeditor.js',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014001s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.038002s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = '__PUBLIC__'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:03:31+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html [运行时间：0.124007s][吞吐率：8.06req/s] [内存消耗：1,902.72kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5180',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/note_wall/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0/section_name/section_1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/王杰_html' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => '王杰',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.039003s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = '王杰'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:03:31+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/__PUBLIC__/ckeditor/ckeditor.js
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/__PUBLIC__/ckeditor/ckeditor.js [运行时间：0.133007s][吞吐率：7.52req/s] [内存消耗：1,899.72kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5180',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/__PUBLIC__/ckeditor/ckeditor_js' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => '__PUBLIC__',
+  'ckeditor' => 'ckeditor.js',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.026002s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = '__PUBLIC__'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:03:41+08:00 ] 127.0.0.1 GET /
+[ info ] class_schedule.com/ [运行时间：0.158009s][吞吐率：6.33req/s] [内存消耗：1,960.80kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5182',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `schedule_info` [ RunTime:0.042003s ]
+[ sql ] [ SQL ] SELECT * FROM `schedule_info` WHERE  `school_name` = '灵川中学'  AND `class_name` = '172' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:03:43+08:00 ] 127.0.0.1 GET /index/user/student_index.html
+[ info ] class_schedule.com/index/user/student_index.html [运行时间：0.428024s][吞吐率：2.34req/s] [内存消耗：2,065.41kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'student_index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5183',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/user/student_index_html' => '',
+)
+[ info ] [ RUN ] app\index\controller\User->student_index[ D:\phpStudy\WWW\class_schedule\application\index\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\user\student_index.html [ array (
+  0 => 'mon',
+  1 => 'tue',
+  2 => 'wed',
+  3 => 'thu',
+  4 => 'fri',
+  5 => 'sat',
+  6 => 'sun',
+  7 => 'schedule_id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `schedule_info` [ RunTime:0.043002s ]
+[ sql ] [ SQL ] SELECT * FROM `schedule_info` WHERE  `class_name` = '172'  AND `school_name` = '灵川中学' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `monday` [ RunTime:0.036002s ]
+[ sql ] [ SQL ] SELECT * FROM `monday` WHERE  `monday_id` = 1 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuesday` [ RunTime:0.053003s ]
+[ sql ] [ SQL ] SELECT * FROM `tuesday` WHERE  `tuesday_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wednesday` [ RunTime:0.037002s ]
+[ sql ] [ SQL ] SELECT * FROM `wednesday` WHERE  `wednesday_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `thursday` [ RunTime:0.033002s ]
+[ sql ] [ SQL ] SELECT * FROM `thursday` WHERE  `thursday_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `friday` [ RunTime:0.037002s ]
+[ sql ] [ SQL ] SELECT * FROM `friday` WHERE  `friday_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `saturday` [ RunTime:0.037002s ]
+[ sql ] [ SQL ] SELECT * FROM `saturday` WHERE  `saturday_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunday` [ RunTime:0.034002s ]
+[ sql ] [ SQL ] SELECT * FROM `sunday` WHERE  `sunday_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:03:45+08:00 ] 127.0.0.1 GET /index/index/note_student_list/schedule_id/1/week/monday/section/section_1.html
+[ info ] class_schedule.com/index/index/note_student_list/schedule_id/1/week/monday/section/section_1.html [运行时间：0.140008s][吞吐率：7.14req/s] [内存消耗：1,996.55kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'note_student_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5184',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/user/student_index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/note_student_list/schedule_id/1/week/monday/section/section_1_html' => '',
+  'schedule_id' => '1',
+  'week' => 'monday',
+  'section' => 'section_1',
+)
+[ info ] [ RUN ] app\index\controller\Index->note_student_list[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\note_student_list.html [ array (
+  0 => 'notes',
+  1 => 'num',
+  2 => 'num1',
+  3 => 'c_u_text2',
+  4 => 'num2',
+  5 => 'notes2',
+  6 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.036002s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `student_name` = '王杰'  AND `section_name` = 'section_1'  AND `week_name` = 'monday'  AND `schedule_id` = 1 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `section_name` = 'section_1'  AND `week_name` = 'monday'  AND `schedule_id` = 1 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:03:47+08:00 ] 127.0.0.1 GET /index/index/note_wall/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0/section_name/section_1.html
+[ info ] class_schedule.com/index/index/note_wall/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0/section_name/section_1.html [运行时间：0.140008s][吞吐率：7.14req/s] [内存消耗：1,950.61kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'note_wall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5185',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/note_student_list/schedule_id/1/week/monday/section/section_1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/note_wall/week_name/monday/student_name/王杰/section_name/section_1_html' => '',
+  'week_name' => 'monday',
+  'student_name' => '王杰',
+  'section_name' => 'section_1',
+)
+[ info ] [ RUN ] app\index\controller\Index->note_wall[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\note_wall.html [ array (
+  0 => 'week_name',
+  1 => 'student_name',
+  2 => 'section_name',
+  3 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.037002s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = '王杰'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:03:49+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html [运行时间：0.127007s][吞吐率：7.87req/s] [内存消耗：1,902.72kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5186',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/note_wall/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0/section_name/section_1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/王杰_html' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => '王杰',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.043003s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = '王杰'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:03:49+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/__PUBLIC__/ckeditor/ckeditor.js
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/__PUBLIC__/ckeditor/ckeditor.js [运行时间：0.154009s][吞吐率：6.49req/s] [内存消耗：1,899.72kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5186',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/__PUBLIC__/ckeditor/ckeditor_js' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => '__PUBLIC__',
+  'ckeditor' => 'ckeditor.js',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.029002s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = '__PUBLIC__'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:04:44+08:00 ] 127.0.0.1 GET /Public
+[ info ] class_schedule.com/Public [运行时间：0.052003s][吞吐率：19.23req/s] [内存消耗：1,057.84kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Public',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5187',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/Public' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-23T07:05:03+08:00 ] 127.0.0.1 GET /Public
+[ info ] class_schedule.com/Public [运行时间：0.056003s][吞吐率：17.86req/s] [内存消耗：1,058.10kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Public',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5188',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/Public' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-23T07:06:02+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html [运行时间：0.177010s][吞吐率：5.65req/s] [内存消耗：1,902.87kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5189',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/note_wall/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0/section_name/section_1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/王杰_html' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => '王杰',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.075004s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = '王杰'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.004000s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:06:02+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/__PUBLIC__/ckeditor/ckeditor.js
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/__PUBLIC__/ckeditor/ckeditor.js [运行时间：0.199011s][吞吐率：5.02req/s] [内存消耗：1,899.72kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5189',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/__PUBLIC__/ckeditor/ckeditor_js' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => '__PUBLIC__',
+  'ckeditor' => 'ckeditor.js',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.060003s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = '__PUBLIC__'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:06:50+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html [运行时间：0.142008s][吞吐率：7.04req/s] [内存消耗：1,902.95kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5190',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/note_wall/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0/section_name/section_1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/王杰_html' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => '王杰',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.040003s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = '王杰'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:06:51+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/__PUBLIC__/ckeditor/ckeditor.js
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/__PUBLIC__/ckeditor/ckeditor.js [运行时间：0.153008s][吞吐率：6.54req/s] [内存消耗：1,899.72kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5190',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/__PUBLIC__/ckeditor/ckeditor_js' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => '__PUBLIC__',
+  'ckeditor' => 'ckeditor.js',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.043003s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = '__PUBLIC__'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:07:32+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html [运行时间：0.107006s][吞吐率：9.35req/s] [内存消耗：2,019.55kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5191',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/note_wall/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0/section_name/section_1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/王杰_html' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => '王杰',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.032002s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = '王杰'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:08:56+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html [运行时间：0.184010s][吞吐率：5.43req/s] [内存消耗：2,019.55kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5192',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/note_wall/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0/section_name/section_1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/王杰_html' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => '王杰',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003001s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.041002s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = '王杰'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:09:03+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html [运行时间：0.134008s][吞吐率：7.46req/s] [内存消耗：2,019.55kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5193',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/note_wall/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0/section_name/section_1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/王杰_html' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => '王杰',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.031002s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = '王杰'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:09:05+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html [运行时间：0.103006s][吞吐率：9.71req/s] [内存消耗：1,902.79kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5194',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/note_wall/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0/section_name/section_1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/王杰_html' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => '王杰',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.028001s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = '王杰'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:09:11+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html [运行时间：0.130007s][吞吐率：7.69req/s] [内存消耗：2,019.55kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5195',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/note_wall/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0/section_name/section_1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/王杰_html' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => '王杰',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.028002s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = '王杰'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:09:20+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html [运行时间：0.110007s][吞吐率：9.09req/s] [内存消耗：2,019.55kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5196',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/note_wall/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0/section_name/section_1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/王杰_html' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => '王杰',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.028002s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = '王杰'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:09:22+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html [运行时间：0.115007s][吞吐率：8.70req/s] [内存消耗：1,902.79kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5197',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/note_wall/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0/section_name/section_1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/王杰_html' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => '王杰',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.028002s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = '王杰'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:12:15+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html [运行时间：0.107006s][吞吐率：9.35req/s] [内存消耗：2,022.70kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5198',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/note_wall/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0/section_name/section_1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/王杰_html' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => '王杰',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.029001s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = '王杰'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:12:18+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html [运行时间：0.114006s][吞吐率：8.77req/s] [内存消耗：1,902.77kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5199',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/note_wall/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0/section_name/section_1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/王杰_html' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => '王杰',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.029002s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = '王杰'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:13:25+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html [运行时间：0.100006s][吞吐率：10.00req/s] [内存消耗：2,022.70kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/note_wall/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0/section_name/section_1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/王杰_html' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => '王杰',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.029001s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = '王杰'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:13:25+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/ckeditor/ckeditor.js
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/ckeditor/ckeditor.js [运行时间：0.149008s][吞吐率：6.71req/s] [内存消耗：1,899.30kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/ckeditor/ckeditor_js' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => 'ckeditor',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = 'ckeditor'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:13:37+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html [运行时间：0.115006s][吞吐率：8.70req/s] [内存消耗：2,019.59kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5201',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/note_wall/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0/section_name/section_1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/王杰_html' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => '王杰',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.031001s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = '王杰'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:13:37+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/ckeditor/ckeditor.js
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/ckeditor/ckeditor.js [运行时间：0.131008s][吞吐率：7.63req/s] [内存消耗：1,899.28kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5201',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/ckeditor/ckeditor_js' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => 'ckeditor',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.033002s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = 'ckeditor'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:13:41+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html [运行时间：0.138007s][吞吐率：7.25req/s] [内存消耗：1,902.62kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5203',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/note_wall/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0/section_name/section_1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/王杰_html' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => '王杰',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.041003s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = '王杰'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:13:41+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/ckeditor/ckeditor.js
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/ckeditor/ckeditor.js [运行时间：0.172010s][吞吐率：5.81req/s] [内存消耗：1,899.28kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5203',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/ckeditor/ckeditor_js' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => 'ckeditor',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003001s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.053003s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = 'ckeditor'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:14:26+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html [运行时间：0.120007s][吞吐率：8.33req/s] [内存消耗：2,019.22kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5204',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/note_wall/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0/section_name/section_1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/王杰_html' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => '王杰',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014001s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.028002s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = '王杰'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:14:27+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/ckeditor/ckeditor.js
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/ckeditor/ckeditor.js [运行时间：0.145008s][吞吐率：6.90req/s] [内存消耗：1,899.30kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5204',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/ckeditor/ckeditor_js' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => 'ckeditor',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.045003s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = 'ckeditor'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:14:35+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html [运行时间：0.144008s][吞吐率：6.94req/s] [内存消耗：2,019.20kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5205',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/note_wall/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0/section_name/section_1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/王杰_html' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => '王杰',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.047003s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = '王杰'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:14:35+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/ckeditor/ckeditor.js
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/ckeditor/ckeditor.js [运行时间：0.169010s][吞吐率：5.92req/s] [内存消耗：1,899.28kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5205',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/ckeditor/ckeditor_js' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => 'ckeditor',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013001s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = 'ckeditor'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:16:49+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html [运行时间：0.133008s][吞吐率：7.52req/s] [内存消耗：1,902.76kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5206',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/note_wall/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0/section_name/section_1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/王杰_html' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => '王杰',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = '王杰'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:16:49+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/ckeditor/ckeditor.js
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/ckeditor/ckeditor.js [运行时间：0.207012s][吞吐率：4.83req/s] [内存消耗：1,899.28kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5206',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/ckeditor/ckeditor_js' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => 'ckeditor',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.095005s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = 'ckeditor'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:17:23+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html [运行时间：0.125008s][吞吐率：8.00req/s] [内存消耗：2,018.41kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5207',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/note_wall/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0/section_name/section_1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/王杰_html' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => '王杰',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = '王杰'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:17:23+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/ckeditor/ckeditor.js
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/ckeditor/ckeditor.js [运行时间：0.156009s][吞吐率：6.41req/s] [内存消耗：1,899.34kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5207',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/ckeditor/ckeditor_js' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => 'ckeditor',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.054003s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = 'ckeditor'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:17:50+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html [运行时间：0.174010s][吞吐率：5.75req/s] [内存消耗：2,019.20kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5208',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/note_wall/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0/section_name/section_1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/王杰_html' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => '王杰',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.057003s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = '王杰'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:17:51+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/ckeditor/ckeditor.js
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/ckeditor/ckeditor.js [运行时间：0.212012s][吞吐率：4.72req/s] [内存消耗：1,899.28kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5208',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/ckeditor/ckeditor_js' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => 'ckeditor',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.096005s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = 'ckeditor'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.008001s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:21:38+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html [运行时间：0.136008s][吞吐率：7.35req/s] [内存消耗：2,019.20kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5209',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/note_wall/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0/section_name/section_1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/王杰_html' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => '王杰',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.049003s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = '王杰'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:21:38+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/ckeditor/ckeditor.js
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/ckeditor/ckeditor.js [运行时间：0.178010s][吞吐率：5.62req/s] [内存消耗：1,899.28kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5209',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/ckeditor/ckeditor_js' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => 'ckeditor',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.055004s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = 'ckeditor'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:22:29+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html [运行时间：0.148009s][吞吐率：6.76req/s] [内存消耗：2,019.12kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5210',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/note_wall/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0/section_name/section_1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/王杰_html' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => '王杰',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.059004s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = '王杰'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:22:30+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/ckeditor/ckeditor.js
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/ckeditor/ckeditor.js [运行时间：0.182010s][吞吐率：5.49req/s] [内存消耗：1,899.29kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5210',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/ckeditor/ckeditor_js' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => 'ckeditor',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.049003s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = 'ckeditor'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:24:26+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html [运行时间：0.141008s][吞吐率：7.09req/s] [内存消耗：2,019.59kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5211',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/note_wall/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0/section_name/section_1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/王杰_html' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => '王杰',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = '王杰'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:24:26+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/ckeditor/ckeditor.js
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/ckeditor/ckeditor.js [运行时间：0.154009s][吞吐率：6.49req/s] [内存消耗：1,899.28kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5211',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/ckeditor/ckeditor_js' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => 'ckeditor',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.050003s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = 'ckeditor'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.003000s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:25:27+08:00 ] 127.0.0.1 GET /index/index/note_wall/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0/section_name/section_1.html
+[ info ] class_schedule.com/index/index/note_wall/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0/section_name/section_1.html [运行时间：0.140008s][吞吐率：7.14req/s] [内存消耗：2,068.59kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'note_wall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5213',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/note_student_list/schedule_id/1/week/monday/section/section_1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/note_wall/week_name/monday/student_name/王杰/section_name/section_1_html' => '',
+  'week_name' => 'monday',
+  'student_name' => '王杰',
+  'section_name' => 'section_1',
+)
+[ info ] [ RUN ] app\index\controller\Index->note_wall[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\note_wall.html [ array (
+  0 => 'week_name',
+  1 => 'student_name',
+  2 => 'section_name',
+  3 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = '王杰'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:25:27+08:00 ] 127.0.0.1 GET /index/index/note_wall/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0/section_name/ckeditor/ckeditor.js
+[ info ] class_schedule.com/index/index/note_wall/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0/section_name/ckeditor/ckeditor.js [运行时间：0.161009s][吞吐率：6.21req/s] [内存消耗：1,947.25kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'note_wall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5213',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/note_wall/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0/section_name/section_1.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/note_wall/week_name/monday/student_name/王杰/section_name/ckeditor/ckeditor_js' => '',
+  'week_name' => 'monday',
+  'student_name' => '王杰',
+  'section_name' => 'ckeditor',
+)
+[ info ] [ RUN ] app\index\controller\Index->note_wall[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\note_wall.html [ array (
+  0 => 'week_name',
+  1 => 'student_name',
+  2 => 'section_name',
+  3 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.045003s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = '王杰'  AND `section_name` = 'ckeditor' LIMIT 1 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:25:38+08:00 ] 127.0.0.1 GET /index/index/note_wall/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0/section_name/section_1.html
+[ info ] class_schedule.com/index/index/note_wall/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0/section_name/section_1.html [运行时间：0.138008s][吞吐率：7.25req/s] [内存消耗：2,068.20kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'note_wall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5214',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/note_student_list/schedule_id/1/week/monday/section/section_1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/note_wall/week_name/monday/student_name/王杰/section_name/section_1_html' => '',
+  'week_name' => 'monday',
+  'student_name' => '王杰',
+  'section_name' => 'section_1',
+)
+[ info ] [ RUN ] app\index\controller\Index->note_wall[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\note_wall.html [ array (
+  0 => 'week_name',
+  1 => 'student_name',
+  2 => 'section_name',
+  3 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.054003s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = '王杰'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:26:45+08:00 ] 127.0.0.1 GET /index/index/note_wall/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0/section_name/section_1.html
+[ info ] class_schedule.com/index/index/note_wall/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0/section_name/section_1.html [运行时间：0.142008s][吞吐率：7.04req/s] [内存消耗：1,950.76kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'note_wall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5215',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/note_student_list/schedule_id/1/week/monday/section/section_1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/note_wall/week_name/monday/student_name/王杰/section_name/section_1_html' => '',
+  'week_name' => 'monday',
+  'student_name' => '王杰',
+  'section_name' => 'section_1',
+)
+[ info ] [ RUN ] app\index\controller\Index->note_wall[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\note_wall.html [ array (
+  0 => 'week_name',
+  1 => 'student_name',
+  2 => 'section_name',
+  3 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.058004s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = '王杰'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:26:46+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html [运行时间：0.193011s][吞吐率：5.18req/s] [内存消耗：2,019.05kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5216',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/note_wall/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0/section_name/section_1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/王杰_html' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => '王杰',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.062004s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = '王杰'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:26:47+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/ckeditor/ckeditor.js
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/ckeditor/ckeditor.js [运行时间：0.176010s][吞吐率：5.68req/s] [内存消耗：1,899.28kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5216',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/ckeditor/ckeditor_js' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => 'ckeditor',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.070004s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = 'ckeditor'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:30:53+08:00 ] 127.0.0.1 GET /ckeditor/_samples/index.html
+[ info ] class_schedule.com/ckeditor/_samples/index.html [运行时间：0.067003s][吞吐率：14.92req/s] [内存消耗：1,057.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ckeditor',
+    1 => '_samples',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5217',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/ckeditor/_samples/index_html' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-23T07:34:21+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html [运行时间：0.211012s][吞吐率：4.74req/s] [内存消耗：2,017.55kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36 LBBROWSER',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/王杰_html' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => '王杰',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.080005s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = '王杰'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:52:16+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html [运行时间：0.146009s][吞吐率：6.85req/s] [内存消耗：2,019.13kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5218',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/note_wall/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0/section_name/section_1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/王杰_html' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => '王杰',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.039003s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = '王杰'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:53:58+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html [运行时间：0.127007s][吞吐率：7.87req/s] [内存消耗：2,020.18kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5219',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/note_wall/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0/section_name/section_1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/王杰_html' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => '王杰',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.031001s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = '王杰'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-23T07:56:27+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html [运行时间：0.121007s][吞吐率：8.26req/s] [内存消耗：1,902.79kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5220',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/note_wall/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0/section_name/section_1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/王杰_html' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => '王杰',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.028002s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = '王杰'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-03-23T08:01:47+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html [运行时间：0.149008s][吞吐率：6.71req/s] [内存消耗：2,020.04kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5221',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/note_wall/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0/section_name/section_1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/王杰_html' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => '王杰',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014001s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.053003s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = '王杰'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-23T08:02:04+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html [运行时间：0.135008s][吞吐率：7.41req/s] [内存消耗：1,902.76kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5222',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/note_wall/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0/section_name/section_1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/王杰_html' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => '王杰',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.061003s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = '王杰'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.002001s ]
+---------------------------------------------------------------
+[ 2018-03-23T08:02:12+08:00 ] 127.0.0.1 GET /
+[ info ] class_schedule.com/ [运行时间：0.156009s][吞吐率：6.41req/s] [内存消耗：1,960.43kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5223',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `schedule_info` [ RunTime:0.055003s ]
+[ sql ] [ SQL ] SELECT * FROM `schedule_info` WHERE  `school_name` = '灵川中学'  AND `class_name` = '172' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-23T08:02:14+08:00 ] 127.0.0.1 GET /index/user/student_index.html
+[ info ] class_schedule.com/index/user/student_index.html [运行时间：0.593034s][吞吐率：1.69req/s] [内存消耗：2,065.02kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'student_index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5224',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/user/student_index_html' => '',
+)
+[ info ] [ RUN ] app\index\controller\User->student_index[ D:\phpStudy\WWW\class_schedule\application\index\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\user\student_index.html [ array (
+  0 => 'mon',
+  1 => 'tue',
+  2 => 'wed',
+  3 => 'thu',
+  4 => 'fri',
+  5 => 'sat',
+  6 => 'sun',
+  7 => 'schedule_id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `schedule_info` [ RunTime:0.055003s ]
+[ sql ] [ SQL ] SELECT * FROM `schedule_info` WHERE  `class_name` = '172'  AND `school_name` = '灵川中学' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `monday` [ RunTime:0.057004s ]
+[ sql ] [ SQL ] SELECT * FROM `monday` WHERE  `monday_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuesday` [ RunTime:0.061003s ]
+[ sql ] [ SQL ] SELECT * FROM `tuesday` WHERE  `tuesday_id` = 1 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wednesday` [ RunTime:0.064004s ]
+[ sql ] [ SQL ] SELECT * FROM `wednesday` WHERE  `wednesday_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `thursday` [ RunTime:0.053003s ]
+[ sql ] [ SQL ] SELECT * FROM `thursday` WHERE  `thursday_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `friday` [ RunTime:0.066004s ]
+[ sql ] [ SQL ] SELECT * FROM `friday` WHERE  `friday_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `saturday` [ RunTime:0.060004s ]
+[ sql ] [ SQL ] SELECT * FROM `saturday` WHERE  `saturday_id` = 1 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunday` [ RunTime:0.071004s ]
+[ sql ] [ SQL ] SELECT * FROM `sunday` WHERE  `sunday_id` = 1 LIMIT 1 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-03-23T08:02:16+08:00 ] 127.0.0.1 GET /index/index/note_student_list/schedule_id/1/week/monday/section/section_1.html
+[ info ] class_schedule.com/index/index/note_student_list/schedule_id/1/week/monday/section/section_1.html [运行时间：0.184011s][吞吐率：5.43req/s] [内存消耗：1,996.43kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'note_student_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5225',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/user/student_index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/note_student_list/schedule_id/1/week/monday/section/section_1_html' => '',
+  'schedule_id' => '1',
+  'week' => 'monday',
+  'section' => 'section_1',
+)
+[ info ] [ RUN ] app\index\controller\Index->note_student_list[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\note_student_list.html [ array (
+  0 => 'notes',
+  1 => 'num',
+  2 => 'num1',
+  3 => 'c_u_text2',
+  4 => 'num2',
+  5 => 'notes2',
+  6 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.092005s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `student_name` = '王杰'  AND `section_name` = 'section_1'  AND `week_name` = 'monday'  AND `schedule_id` = 1 LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `section_name` = 'section_1'  AND `week_name` = 'monday'  AND `schedule_id` = 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-23T08:02:20+08:00 ] 127.0.0.1 GET /index/index/note_wall/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0/section_name/section_1.html
+[ info ] class_schedule.com/index/index/note_wall/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0/section_name/section_1.html [运行时间：0.157009s][吞吐率：6.37req/s] [内存消耗：1,950.43kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'note_wall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5226',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/note_student_list/schedule_id/1/week/monday/section/section_1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/note_wall/week_name/monday/student_name/王杰/section_name/section_1_html' => '',
+  'week_name' => 'monday',
+  'student_name' => '王杰',
+  'section_name' => 'section_1',
+)
+[ info ] [ RUN ] app\index\controller\Index->note_wall[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\note_wall.html [ array (
+  0 => 'week_name',
+  1 => 'student_name',
+  2 => 'section_name',
+  3 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.063003s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = '王杰'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-23T08:02:22+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html [运行时间：0.172010s][吞吐率：5.81req/s] [内存消耗：1,902.61kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5227',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/note_wall/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0/section_name/section_1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/王杰_html' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => '王杰',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = '王杰'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-23T08:02:31+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html [运行时间：0.136007s][吞吐率：7.35req/s] [内存消耗：2,020.18kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5228',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/note_wall/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0/section_name/section_1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/王杰_html' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => '王杰',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = '王杰'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-03-23T08:04:04+08:00 ] 127.0.0.1 GET /index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html
+[ info ] class_schedule.com/index/index/edit_note/section_name/section_1/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0.html [运行时间：0.162009s][吞吐率：6.17req/s] [内存消耗：2,020.20kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\class_schedule\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'edit_note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=127036383.1031573903326984700.1520603706485.4617; CNZZDATA1253778100=1343299433-1520924350-http%253A%252F%252Fclass_schedule.com%252F%7C1520924350; PHPSESSID=gsqebpvptgdcmaicsqk779ekr4; monitor_count=5229',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://class_schedule.com/index/index/note_wall/week_name/monday/student_name/%E7%8E%8B%E6%9D%B0/section_name/section_1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'class_schedule.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/edit_note/section_name/section_1/week_name/monday/student_name/王杰_html' => '',
+  'section_name' => 'section_1',
+  'week_name' => 'monday',
+  'student_name' => '王杰',
+)
+[ info ] [ RUN ] app\index\controller\Index->edit_note[ D:\phpStudy\WWW\class_schedule\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\class_schedule\public/../application/index\view\index\edit_note.html [ array (
+  0 => 'note_text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;dbname=class_schedule;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notes` [ RunTime:0.057003s ]
+[ sql ] [ SQL ] SELECT * FROM `notes` WHERE  `week_name` = 'monday'  AND `student_name` = '王杰'  AND `section_name` = 'section_1' LIMIT 1 [ RunTime:0.001000s ]
